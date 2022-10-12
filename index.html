@@ -1,3 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,3 +45,89 @@
     <script src="index.js"></script>
     <title>FINANCIAL FREEDOM CALCULATOR</title>
 </head>
+
+
+
+<body>
+    <div id="MAIN_GRID">
+
+
+        <div id="APP_GRID">
+
+
+            <div class="HOLDER">
+                <h1>FINANCIAL FREEDOM CALCULATOR</h1>
+            </div>
+
+            <div class="LABEL_GRID">
+                <div class="HOLDER">
+                    <label for="IR">Interest Rate:</label>
+                </div>
+                <div class="HOLDER">
+                    <input type="number" value="5" placeholder="interest rate" id="IR">
+                </div>
+            </div>
+
+            <div class="LABEL_GRID">
+                <div class="HOLDER">
+                    <label for="contribution">Monthly contribution:</label>                  
+                </div>
+                <div class="HOLDER">
+                    <input type="number" value="600" placeholder="Monthly contribution" id="contribution">
+                </div>
+            </div>
+
+            <div class="LABEL_GRID">
+                <div class="HOLDER">
+                    <label for="startingValue">Starting principal:</label>                 
+                </div>
+                <div class="HOLDER">
+                    <input type="number" value="10000" placeholder="Starting principal" id="startingValue">
+                </div>
+            </div>
+
+            <div class="LABEL_GRID">
+                <div class="HOLDER">
+                    <label for="limit">How many years?</label>
+                </div>
+                <div class="HOLDER">
+                    <input type="number" value="10" placeholder="How many years?" id="limit">
+                </div>
+            </div>
+
+            <div class="LABEL_GRID">
+                <div class="HOLDER">
+                    <label for="limit">Income needed to retire</label>
+                </div>
+                <div class="HOLDER">
+                    <input type="number" value="50000" placeholder="passive income needed" id="reqIncome">
+                </div>
+            </div>
+
+            <div class="LABEL_GRID">
+                <div class="HOLDER">
+                    <button class="btn btn-primary" id="submitForm">Submit</button>                  
+                </div>
+                <div class="HOLDER">
+                    <input type="number" value="50000" placeholder="passive income needed" id="reqIncome">
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    
+    <h1 style="color: rgba(237, 43, 43, 1)" id="goal"></h1>
+
+
+    <container class="CONTAINER">
+        <div class="GRAPH_CONTAINER">
+            <canvas id="myChart"></canvas>
+        </div>
+    </container>
+</body>
+
+</html>
