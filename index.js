@@ -14,11 +14,11 @@ let labels = []
 
 
 function SetParams() {
-    let ir = document.getElementById("IR").value
-    let contr = document.getElementById("contribution").value
-    let startingVal = document.getElementById("startingValue").value
-    let lim = document.getElementById("limit").value
-    let req = document.getElementById("reqIncome").value
+    let ir = document.getElementById("INTEREST_RATES").value
+    let contr = document.getElementById("CONTRIBUTION").value
+    let startingVal = document.getElementById("STARTING_VALUE").value
+    let lim = document.getElementById("LIMIT").value
+    let req = document.getElementById("REQUIRED_INCOME").value
 
     IR = ir*0.01
     contribution = parseInt(contr)
@@ -111,7 +111,7 @@ window.onload=function(){
         comparator()
         didIhitGoal(text)
        
-        var ctx = document.getElementById("myChart");
+        var ctx = document.getElementById("MY-CHART");
         var data = {
            labels: labels,
             datasets: [{
